@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Regístro</title>
+    <title>Iniciar Sesión</title>
     <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
       <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -18,13 +18,6 @@
       <form>
         <div class="form-group" id="formulario">
           <h1>Instagram</h1>
-            <h3><small class="text-muted">Regístrate para ver fotos y vídeos de tus amigos.</small></h3>
-            <div class="form-group">
-              <input class="form-control" type="text" name="Email" placeholder="Correo electrónico">
-            </div>
-            <div class="form-group">
-              <input class="form-control" type="text" name="Name" placeholder="Nombre Completo">
-            </div>
             <div class="form-group">
               <input class="form-control" type="text" name="Username" placeholder="Nombre de usuario">
             </div>
@@ -32,12 +25,12 @@
               <input class="form-control" type="password" name="Password" placeholder="Contraseña">
             </div>
             <div class="form-group">
-              <button type="button" class="btn btn-warning">Regístrate</button>
+              <button type="button" class="btn btn-warning">Entrar</button>
                 <!-- <input type="submit"><br><br> -->
                 <!-- Tambíen se puede colocar <button>Regístrate</button> en vez de <input type="submit"> -->
             </div>
-            ¿Tienes una cuenta?
-            <a href="/login">Entrar</a>
+            ¿No tienes una cuenta?
+            <a href="/">Regístrate</a>
         </div>
       </form>
     </div>

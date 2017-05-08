@@ -1,12 +1,12 @@
 #form {
     position: absolute;
-    top:  20px;
+    top:  120px;
     right: 200px;
 }
 
 #img2 {
   position: absolute;
-  top: 540px;
+  top: 450px;
   right: 250px;
   height: 70px;
   width: auto;
@@ -14,7 +14,7 @@
 
 #download{
   position: absolute;
-  top: 500px;
+  top: 420px;
   right: 275px;
 }
 
