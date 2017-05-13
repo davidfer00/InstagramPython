@@ -6,3 +6,5 @@ def index(request):
     return render(request, 'index.html')
 def login(request):
     return render(request, 'login.html')
+def inicio(request):
+    return render(request, 'inicio.html')
