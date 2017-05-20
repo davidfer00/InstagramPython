@@ -1,0 +1,52 @@
+{% load static%}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inicio</title>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="{% static 'css/user.css' %}">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="nav">
+      <ul class="nav nav-fill">
+        <li class="nav-item">
+          <a class="nav-link active" href="/login"><img src="{% static 'images/navhome1.png' %}" id="imgnav"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login"><img src="{% static 'images/navsearch1.png' %}" id="imgnav"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login"><img src="{% static 'images/navcamera1.png' %}" id="imgnav"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login"><img src="{% static 'images/navlike1.png' %}" id="imgnav"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login"><img src="{% static 'images/navprofile1.png' %}" id="imgnav"></a>
+        </li>
+      </ul>
+      <br>
+    </div>
+    <div class="card" style="width: 800px;" id="cards">
+      <div class="card-block">
+        <h1 ><img src="{% static 'images/perfil.png' %}" alt="foto de perfil" id="imgprofile" align="left"></h1>
+        <h1 class="card-title">nombredeusuario &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </h1><br><br><br>
+        <h4 class="card-title">#publicaciones   &nbsp;#seguidores &nbsp; #seguidos   </h4 ><br><br><br>
+        <h6 class="card-text">Descripción </h6>
+      </div>
+    </div>
+    <div class="card" style="width: 800px;" id="img">
+      <div class="card-block">
+      <img class="card-img-top" src="{% static 'images/perfil.png' %}" alt="Card image cap" id="imgpost">
+      </div>
+    </div>
+        <a></a>
+      </div>
+    </div>
+  </body>
+</html>
