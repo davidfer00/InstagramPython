@@ -9,8 +9,9 @@
 }
 
 #imgpost{
-  width: 800px;
+  width: 200px;
   height: auto;
+  border-radius: 100%;
 }
 #imgnav {
   width: 35px;
@@ -27,5 +28,9 @@
   left: 230px;
 }
 #img{
-  
+
+}
+
+text{
+  color: blue;
 }
